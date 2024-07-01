@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Profile Page</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <div class="container">
-        <section id="name">
-            <h2>Name</h2>
-            <p>Your Full Name</p>
-        </section>
-        <section id="email">
-            <h2>Email</h2>
-            <p>Your Email Address</p>
-        </section>
-        <section id="profile">
-            <h2>Profile</h2>
-            <p>Your Profile Description</p>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>A brief description of yourself.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
+    <header>
+        <h1>Personal Profile</h1>
+        <!-- Include your picture here -->
+        <img src="your_picture.jpg" alt="Your Picture" class="profile-picture">
+    </header>
+
+    <section class="profile-section">
+        <h2>Name</h2>
+        <p>Your Full Name</p>
+    </section>
+
+    <section class="profile-section">
+        <h2>Email</h2>
+        <p>Your Email Address</p>
+    </section>
+
+    <section class="profile-section">
+        <h2>Profile</h2>
+        <p>The profile for which you are applying</p>
+    </section>
+
+    <section class="profile-section">
+        <h2>About Me</h2>
+        <p>A brief description of yourself</p>
+    </section>
+
+    <section class="profile-section">
+        <h2>Skills</h2>
+        <!-- Graphical representation of your skills using icons, badges, and percentage bars -->
+        <div class="skills">
+            <!-- Example skill with icon, badge, and percentage bar -->
             <div class="skill">
-                <h3>Skill 1</h3>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 80%;">80%</div>
-                </div>
-            </div>
-            <div class="skill">
-                <h3>Skill 2</h3>
-                <div class="progress">
-                    <div class="progress-bar" style="width: 70%;">70%</div>
-                </div>
+                <h3>Skill Name 1</h3>
+                <img src="icon.png" alt="Skill Icon">
+                <span class="badge">Expert</span>
+                <div class="percentage-bar" style="width: 80%;"></div>
             </div>
             <!-- Add more skills as needed -->
-        </section>
-        <section id="picture">
-            <h2>Picture</h2>
-            <img src="your-picture.jpg" alt="Your Picture">
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
